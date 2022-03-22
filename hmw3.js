@@ -4,7 +4,7 @@
         to determine if the first one contains equivalent 
         property values to the second one.
 */
-/*
+
 var favorite ={
     movie : " Back to the future",
     book: "	Skinnybones",
@@ -41,7 +41,7 @@ console.log(compare(favorite2,favorite3));
 
 
 
-*/
+
 
 
 
