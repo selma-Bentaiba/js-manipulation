@@ -50,22 +50,22 @@ console.log(compare(favorite2,favorite3));
         console.log(difference([1, 2, 3], [100, 2, 1, 10]));
         ["1", "2"] */
         function difference(arr1, arr2) {
-            var common = [];                   // Array to contain common elements
+            var common = [];                  
             for(var i=0 ; i<arr1.length ; ++i) {
               for(var j=0 ; j<arr2.length ; ++j) {
-                if(arr1[i] == arr2[j]) {       // If element is in both the arrays
-                  common.push(arr1[i]);        // Push to common array
+                if(arr1[i] == arr2[j]) {       
+                  common.push(arr1[i]);        
                 }
               }
             }
             
-            return common;                     // Return the common elements
-          }
+            return common;   
+        }     
           var A= [1, 2, 3];
           var B= [100, 2, 1, 10];
-          // Get common elements of arr1, arr2
-          var commonElements = difference(A, B); 
-          console.log(commonElements);
+          
+         
+          console.log( difference(A, B));
 
 
 
